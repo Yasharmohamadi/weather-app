@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: #f7f9fc;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	height: 100vh;
+}
+
+.container {
+	width: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main_section {
+}
+.gif_section {
+	width: 300px;
+	height: 300px;
+	background: url(../gif/world-animation.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	color: #0658a3;
+	text-align: justify;
+	font-size: 40px;
+	padding: 5px 15px;
+	/* box-shadow: -4px -4px 0 #0658a3; */
+}
+.options {
+	display: flex;
+	border: 1px solid #0658a3;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 100px;
+	align-items: center;
+	margin-top: 5px;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding: 10px 15px;
+	width: 200px;
+	transition: all 0.4s ease-in-out;
+	box-shadow: -3px 3px 0 #0658a3;
+}
+.input {
+	width: 250px;
+	font-size: 25px;
+	color: #0658a3;
+	outline: none;
+}
+.options:hover {
+	width: 320px;
+}
+
+.input,
+.btn {
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.input::placeholder {
+	color: #0657a391;
+}
+
+.input::selection {
+	background: #029d90;
+  color: #fff;
+}
+
+.btn {
+	width: 30px;
+	height: 30px;
+	color: #0658a3;
+	cursor: pointer;
+}
+
+.btn:hover {
+	transition: all 1s ease-in-out;
+	transform: rotate(720deg);
+}
+
+.svg {
+	width: 100px;
+}
+
+.result {
+  visibility: hidden;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  color: #0658a3;
+}
+
+.city_name {
+  margin-right: 30px;
+}
+
+.weather_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.city_weather {
+  font-size: 20px;
+}
+
+.city_description {
+  font-size: 18px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px 0 #0658a3;
+  color: #029d90;
+  margin-left: 10px;
+}
+
+.result_left {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #029d90;
+
+}
+
+.temp {
+  font-size: 90px;
+  margin-left: 40px;
+}
+
+.degree {
+  font-size: 80px;
+  margin-left: 5px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>World Weather</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <link rel="icon" type="image/png" href="./image/icon.png"> -->
+	</head>
+	<body>
+		<div class="container">
+			<div class="main_section">
+				<h1 class="title">World Weather !</h1>
+				<div class="options">
+					<input type="text" class="input" placeholder="Enter Your City" />
+					<button class="btn">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="btn_svg"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+							/>
+						</svg>
+					</button>
+				</div>
+				<div class="result">
+					<div class="result_right">
+						<h1 class="city_name">IR, Shiraz</h1>
+						<div class="weather_info">
+							<h3 class="city_weather">Clouds</h3>
+							<h3 class="city_description">Rain</h3>
+						</div>
+					</div>
+					<div class="result_left">
+						<h1 class="temp">15</h1>
+						<span class="degree">°c</span>
+					</div>
+				</div>
+			</div>
+			<div class="gif_section"></div>
+		</div>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
